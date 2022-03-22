@@ -12,4 +12,4 @@ for sentence in cas.select('de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.
         st.write(token.get_covered_text())
 
         # Annotation values can be accessed as properties
-        st.write('Token: id= {}, lemma={}, pos={}, stem= {}'.format(token.begin, token.end, token.id, token.pos,token.lemma, token.stem))
+        st.write('Token: id= {}, lemma={}, pos={}'.format(token.begin, token.end, token.id, token.pos,token.lemma, token.stem))
